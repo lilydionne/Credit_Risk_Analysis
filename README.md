@@ -11,15 +11,20 @@ Given that the volume of good loan applicants outnumber risky loans applicants w
 ## Results
 
 - RandomOverSampler
-  - Accuracy Score: 
+  - Accuracy Score: 62.5%
+
 - SMOTE
-  - Accuracy Score: 
+  - Accuracy Score: 65.1%
+
 - ClusterCentroids
-  - Accuracy Score: 
+  - Accuracy Score: 51.6%
+
 - SMOTTEN
-  - Accuracy Score: 
+  - Accuracy Score: 61.6%
+
 - BalancedRandomForestClassifier
   - Accuracy Score: 
+
 - EasyEnsembleClassifier
   - Accuracy Score: 
 
