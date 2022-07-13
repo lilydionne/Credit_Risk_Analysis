@@ -13,14 +13,25 @@ Given that the volume of good loan applicants outnumber risky loans applicants w
 - RandomOverSampler
   - Accuracy Score: 62.5%
 
+![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/RandomOverSampler.PNG)
+
 - SMOTE
   - Accuracy Score: 65.1%
+
+![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/SMOTE.PNG)
+
 
 - ClusterCentroids
   - Accuracy Score: 51.6%
 
+![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/ClusterCentroids.PNG)
+
+
 - SMOTTEN
   - Accuracy Score: 61.6%
+
+![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/SMOTEENN.PNG)
+
 
 - BalancedRandomForestClassifier
   - Accuracy Score: 
