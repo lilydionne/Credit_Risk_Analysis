@@ -10,34 +10,38 @@ Given that the volume of good loan applicants outnumber risky loans applicants w
  
 ## Results
 
-- RandomOverSampler
+##### RandomOverSampler
   - Accuracy Score: 62.5%
 
 ![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/RandomOverSampler.PNG)
+  - Based on the precision score, that the model is great at predicting low risk loan applications (100%) but fails at predicting the high risk loan applications (1%)
 
-- SMOTE
+##### SMOTE
   - Accuracy Score: 65.1%
 
 ![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/SMOTE.PNG)
+  - Based on the precision score, that the model is great at predicting low risk loan applications (100%) but fails at predicting the high risk loan applications (1%)
 
 
-- ClusterCentroids
+##### ClusterCentroids
   - Accuracy Score: 51.6%
 
 ![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/ClusterCentroids.PNG)
+  - Based on the precision score, that the model is great at predicting low risk loan applications (100%) but fails at predicting the high risk loan applications (1%)
 
-
-- SMOTTEN
+##### SMOTTEN
   - Accuracy Score: 61.6%
 
 ![](https://github.com/lilydionne/Credit_Risk_Analysis/blob/main/SMOTEENN.PNG)
+  - Based on the precision score, that the model is great at predicting low risk loan applications (100%) but fails at predicting the high risk loan applications (1%)
 
 
-- BalancedRandomForestClassifier
+##### BalancedRandomForestClassifier
   - Accuracy Score: 
 
-- EasyEnsembleClassifier
+##### EasyEnsembleClassifier
   - Accuracy Score: 
 
 ## Summary
+Unfortunately, all models used to perform the credit risk analysis show weak precision in determining if a credit risk is high. Due to the large volume of low risk applications, the model had better success at predicting those loans, but the precision was weak. Due to issues with my computer, I was unable to properly run BalancedRandomForestClassifer and EasysembleClassifer, but will troubleshoot this further to complete the analysis.
 
