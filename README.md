@@ -6,6 +6,22 @@ Given that the volume of good loan applicants outnumber risky loans applicants w
  - Use the RandomOverSampler and SMOTE algorithms to oversample the data
  - Use the ClusterCentroids algorithm to undersample the data
  - Use SMOTEEN to both oversample and undersample the data
- - And last, use BalancedRandomForestClassifier and EasyEnsembleClassifier to reduce bias
+ - And lastly, use BalancedRandomForestClassifier and EasyEnsembleClassifier to reduce bias
  
 ## Results
+
+- RandomOverSampler
+  - Accuracy Score: 
+- SMOTE
+  - Accuracy Score: 
+- ClusterCentroids
+  - Accuracy Score: 
+- SMOTTEN
+  - Accuracy Score: 
+- BalancedRandomForestClassifier
+  - Accuracy Score: 
+- EasyEnsembleClassifier
+  - Accuracy Score: 
+
+## Summary
+
